@@ -111,7 +111,7 @@ Menampilkan dan mencetak laporan kebersihan:
 ### Halaman Home
 ![image](https://github.com/user-attachments/assets/11d97eb0-3501-45c2-a519-c71638d3d0fb)
 
-### Daftar Checklist
+### Data Checklist
 ![WhatsApp Image 2025-06-06 at 19 36 02](https://github.com/user-attachments/assets/9768d8f5-c848-4ccc-8ffe-ff06cd600941)
 
 ### Data Toilet
