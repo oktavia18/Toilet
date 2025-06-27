@@ -124,7 +124,7 @@ Menampilkan dan mencetak laporan kebersihan:
 ---
 | **Keterangan**                | **Peran**                                              |
 |------------------------------|----------------------------------------------------|
-| **Poster**            |   https://www.canva.com/design/DAGrcDyu-EE/fNnyN4xPKw-Z4mOfpyZAkQ/edit?utm_content=DAGrcDyu-EE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton         |
+| **Poster**            |   https://drive.google.com/file/d/1LAr2ec6YrOxuGNU3YmMtm6AoMzlNkpYm/view?usp=sharing        |
 | **YouTube**         | (https://youtu.be/jyC5mCBqG0o)   |
 | **Drive Laporan**       |          |
 
