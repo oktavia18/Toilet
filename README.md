@@ -122,15 +122,14 @@ Menampilkan dan mencetak laporan kebersihan:
 ![image](https://github.com/user-attachments/assets/aa76c7f1-9feb-4c32-bf79-fa1dde6b80d4)
 
 ---
-| **Keterangan**                | **Peran**                                              |
-|------------------------------|----------------------------------------------------|
-| **Poster**            |   https://drive.google.com/file/d/1LAr2ec6YrOxuGNU3YmMtm6AoMzlNkpYm/view?usp=sharing        |
-| **YouTube**         | (https://youtu.be/jyC5mCBqG0o)   |
-| **Drive Laporan**       |          |
-
 
 ## <img src="img/google-drive.png" width=20> Link Laporan Proyek
 
+| **Keterangan**                | **Link**                                              |
+|------------------------------|----------------------------------------------------|
+| **Poster**            |   https://drive.google.com/file/d/1LAr2ec6YrOxuGNU3YmMtm6AoMzlNkpYm/view?usp=sharing        |
+| **YouTube**         | https://youtu.be/jyC5mCBqG0o   |
+| **Drive Laporan**       |          |
 
 =======
 # CodeIgniter 4 Framework
