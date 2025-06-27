@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## 👥 Anggota Kelompok
 
 | **Nama**                      | **NIM**       | **Peran**                                              |
@@ -122,6 +122,12 @@ Menampilkan dan mencetak laporan kebersihan:
 ![image](https://github.com/user-attachments/assets/aa76c7f1-9feb-4c32-bf79-fa1dde6b80d4)
 
 ---
+| **Keterangan**                | **Peran**                                              |
+|------------------------------|----------------------------------------------------|
+| **Poster**            |   https://www.canva.com/design/DAGrcDyu-EE/fNnyN4xPKw-Z4mOfpyZAkQ/edit?utm_content=DAGrcDyu-EE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton         |
+| **YouTube**         | (https://youtu.be/jyC5mCBqG0o)   |
+| **Drive Laporan**       |          |
+
 
 ## <img src="img/google-drive.png" width=20> Link Laporan Proyek
 
