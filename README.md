@@ -3,10 +3,10 @@
 
 | **Nama**                      | **NIM**       | **Peran**                                              |
 |------------------------------|---------------|--------------------------------------------------------|
-| **Luthfi Fauzan**        | 312310497     |    Code PHP(codelgniter 4) dan Publikasi ke Web Hosting           |
-| **Dhiyaulhaq Al Maudidi**     | 312310508     | Basis Data ERD         |
-| **Raditya Tansy Lizara**    | 312310454     |  Front End Design HTML CSS dan Laporan            |
-| **Oktavia Rizkha Kurniawati**| 312310509     |    Front End Design HTML CSS dan Laporan      |
+| **Luthfi Fauzan**        | 312310497     |    Pengembangan backend menggunakan CodeIgniter 4 (v2022) dan publikasi ke web hosting.           |
+| **Dhiyaulhaq Al Maudidi**     | 312310508     | Perancangan basis data (ERD) dan struktur relasional database.         |
+| **Raditya Tansy Lizara**    | 312310454     |  Desain antarmuka (HTML & CSS), pembuatan mockup aplikasi, serta penyusunan laporan akhir proyek.            |
+| **Oktavia Rizkha Kurniawati**| 312310509     |    Desain antarmuka (HTML & CSS), pembuatan Diagram Use Case, serta penyusunan laporan akhir proyek.      |
 
 # 📋 Sistem Checklist Kebersihan Toilet
 
