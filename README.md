@@ -1,4 +1,4 @@
-# 🚻 Checklist Kebersihan Toilet — Aplikasi Web
+# 🚻 Checklist Kebersihan Toilet — Aplikasi Web (PROYEK UAS)
 
 ## 📌 Deskripsi Proyek
 
