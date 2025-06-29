@@ -1,106 +1,132 @@
+# 🚻 Checklist Kebersihan Toilet — Aplikasi Web
 
-## 👥 Anggota Kelompok
+## 📌 Deskripsi Proyek
 
-| **Nama**                      | **NIM**       | **Peran**                                              |
-|------------------------------|---------------|--------------------------------------------------------|
-| **Luthfi Fauzan**        | 312310497     |    Pengembangan backend menggunakan CodeIgniter 4 (v2022) dan publikasi ke web hosting.           |
-| **Dhiyaulhaq Al Maudidi**     | 312310508     | Perancangan basis data (ERD) dan struktur relasional database.         |
-| **Raditya Tansy Lizara**    | 312310454     |  Desain antarmuka (HTML & CSS), pembuatan mockup aplikasi, serta penyusunan laporan akhir proyek.            |
-| **Oktavia Rizkha Kurniawati**| 312310509     |    Desain antarmuka (HTML & CSS), pembuatan Diagram Use Case, serta penyusunan laporan akhir proyek.      |
-
-# 📋 Sistem Checklist Kebersihan Toilet
-
-**Sistem Checklist Kebersihan Toilet** adalah aplikasi web berbasis PHP dan MySQL yang dirancang untuk membantu pengelola fasilitas dalam memantau dan mengelola kebersihan toilet secara efisien. Aplikasi ini mencatat aktivitas kebersihan, mendukung pelaporan rutin, dan memberikan transparansi dalam manajemen toilet.
+**Checklist Kebersihan Toilet** adalah aplikasi berbasis web yang dikembangkan untuk membantu petugas kebersihan dalam mencatat dan memantau aktivitas kebersihan toilet secara digital dan real-time. Aplikasi ini dirancang agar proses checklist dapat dilakukan dengan efisien, terdokumentasi, dan dapat dicetak dalam bentuk laporan.
 
 ---
 
-## 🎯 Tujuan Sistem
+## 🎯 Tujuan Proyek
 
-Sistem ini bertujuan menyediakan platform digital untuk:
-- Melakukan checklist kebersihan toilet secara sistematis.
-- Mengelola data fasilitas toilet.
-- Menghasilkan laporan sebagai bahan evaluasi kebersihan.
-
----
-
-## 🔐 Login dan Manajemen Pengguna
-
-- Autentikasi pengguna dengan fitur **Login dan Registrasi**.
-- Role-based access:
-  - **Admin**: Mengelola data toilet, melihat laporan, memverifikasi checklist.
-  - **Petugas**: Melakukan checklist toilet harian berdasarkan tanggung jawabnya.
+- Mengganti sistem manual checklist menjadi sistem digital.
+- Mempermudah pengawasan kebersihan toilet berdasarkan lokasi.
+- Menyediakan laporan checklist yang dapat dicetak dalam bentuk PDF.
+- Meningkatkan efisiensi dan transparansi tugas petugas kebersihan.
 
 ---
 
-## 📊 Dashboard Utama
+## 💡 Fitur Utama
 
-- Menampilkan ringkasan kondisi kebersihan toilet.
-- Visualisasi status terkini berdasarkan data checklist.
-- Memberikan overview cepat untuk evaluasi harian.
-
----
-
-## 🧼 Modul Manajemen Toilet
-
-CRUD (Create, Read, Update, Delete) untuk data toilet:
-
-- **Daftar Toilet**: Menampilkan semua data toilet, lokasi, dan kontrol edit/hapus.
-- **Tambah Toilet**: Menambahkan data toilet baru (nama, lokasi, item kebersihan).
-- **Ubah Toilet**: Mengedit data toilet yang sudah ada.
-- **Hapus Toilet**: Menghapus toilet dari database.
+- Login terpisah untuk **Admin** dan **Petugas**.
+- Input checklist harian berdasarkan lokasi toilet.
+- Tabel checklist interaktif dengan fitur pencarian dan filter.
+- Cetak laporan checklist ke PDF (DomPDF).
+- DataTables untuk tampilan tabel yang dinamis dan interaktif.
 
 ---
 
-## ✅ Modul Checklist Kebersihan
+## 🧩 Desain Sistem
 
-Fitur utama untuk pencatatan aktivitas kebersihan:
+### 👤 Use Case
 
-- **Pemilihan Toilet dan Tanggal**: Petugas memilih toilet dan tanggal sebelum checklist.
-- **Checklist Item Kebersihan**:
-  - Lantai
-  - Dinding
-  - Kloset
-  - Wastafel
-  - Kaca
-  - Bau ruangan
-  - Stok sabun
-- Checklist dicatat dengan nama petugas, tanggal, dan waktu.
+- **Admin**: mengelola data pengguna & melihat laporan.
+- **Petugas**: mengisi checklist harian & mencetak laporan.
 
----
+![usecase sistem checklist toilet drawio (3)](https://github.com/user-attachments/assets/d4d8838f-c843-4736-ada5-b6f3fd39cbc0)
 
-## 📄 Modul Pelaporan
 
-Menampilkan dan mencetak laporan kebersihan:
+### 🔄 Alur Penggunaan
 
-- **Checklist Berdasarkan Tanggal**: Menampilkan data checklist sesuai tanggal yang dipilih.
-- **Laporan Belum Diperiksa**: Daftar toilet yang checklist-nya belum diverifikasi.
-- **Laporan Toilet Rusak/Kotor**: Daftar toilet yang membutuhkan perhatian lebih berdasarkan hasil checklist.
+1. Pengguna login ke sistem.
+2. Petugas mengisi form checklist kebersihan toilet.
+3. Data tersimpan dan ditampilkan dalam bentuk tabel.
+4. Admin mencetak laporan PDF.
+
+### 🎨 Mockup
+
+- Figma:  
+  [Mockup Aplikasi](https://www.figma.com/design/ZM4oCEA9QWZoSumzUwr9zn/Mockup-Checklist-Toilet)
 
 ---
 
+## 🧱 Teknologi yang Digunakan
 
-## 🛠️ Teknologi yang Digunakan
+### 💻 Front-End
 
-- **Bahasa Pemrograman**: PHP
-- **Framework**: CodeIgniter 4 (opsional)
-- **Database**: MySQL
-- **Frontend**: HTML, CSS, JavaScript (Bootstrap untuk UI)
+- **HTML5** — struktur halaman.
+- **CSS3** — styling dan layout.
+- **Bootstrap 5** — komponen UI responsif.
+- **JavaScript & jQuery** — interaksi dinamis.
+- **DataTables** — pengelolaan tabel (search, filter, pagination).
+
+### ⚙️ Back-End
+
+- **PHP 8** — bahasa pemrograman.
+- **CodeIgniter 4** — framework utama (MVC).
+- **MySQL** — sistem basis data.
+- **HeidiSQL** — pengelolaan database.
+- **DomPDF** — cetak laporan ke PDF.
 
 ---
 
-## 🚀 Manfaat Sistem
+## 📂 Struktur Database
 
-- Meningkatkan efisiensi pemantauan kebersihan toilet.
-- Meningkatkan transparansi dan akuntabilitas petugas kebersihan.
-- Menyediakan dokumentasi checklist yang terstruktur dan mudah diakses.
-- Mempermudah pelaporan kondisi toilet kepada manajemen.
+Tabel utama:
+
+- `users` — data admin & petugas.
+- `toilets` — data lokasi toilet.
+- `checklist` — catatan checklist harian.
+- Relasi antar tabel mendukung pelacakan berdasarkan lokasi dan user.
 
 ---
 
-## 📌 Catatan Tambahan
+## <img src="img/google-drive.png" width=20> Link Laporan Proyek
 
-- Pastikan server Apache dan MySQL aktif saat menjalankan aplikasi.
-- Aplikasi dapat dikembangkan lebih lanjut untuk integrasi mobile atau notifikasi otomatis.
+| **Keterangan**                | **Link**                                              |
+|------------------------------|----------------------------------------------------|
+| **Poster**            |   [Link Poster Google Drive](https://drive.google.com/file/d/1LAr2ec6YrOxuGNU3YmMtm6AoMzlNkpYm/view?usp=sharing)        |
+| **Video Demo**         | [https://youtu.be/jyC5mCBqG0o](https://youtu.be/jyC5mCBqG0o)  |
+| **Drive Laporan**       |      https://drive.google.com/file/d/1HXH7MQkzaisTUVJyOtMvuCIPOARYARl-/view?usp=sharing    |
+
+
+## 👥 Anggota Tim & Tanggung Jawab
+
+| No | Nama                           | Tugas                                                                 |
+|----|--------------------------------|------------------------------------------------------------------------|
+| 1  | **Luthfi Fauzan**              | Backend development (CI4), deployment ke web hosting                  |
+| 2  | **Dhiyaulhaq Al Maududi**      | Perancangan database (ERD), relasi antar tabel                        |
+| 3  | **Raditya Tansy Lizara**       | Desain antarmuka, pembuatan mockup (Figma), dan penulisan laporan     |
+| 4  | **Oktavia Rizkha Kurniawati**  | Desain UI (HTML+CSS), use case diagram, penyusunan laporan akhir      |
+
+---
+
+## 📷 Cuplikan Tampilan
+
+### 🧾 DataTables Checklist
+Menampilkan daftar checklist kebersihan lengkap dengan fitur search, sort, dan pagination.
+
+![DataTables Screenshot](Gambar/image-4.png)
+
+### 🧾 Laporan PDF
+Hasil cetak laporan checklist dalam bentuk file PDF.
+
+![Laporan PDF](Gambar/image-5.png)
+
+---
+
+## 📅 Tahun Akademik
+
+**Universitas Pelita Bangsa**  
+Fakultas Teknik — Teknik Informatika  
+Tahun Akademik 2024/2025  
+
+---
+
+## 📞 Kontak Tim (Opsional)
+
+> Hubungi kami melalui GitHub repo untuk kontribusi, pertanyaan, atau kolaborasi.
+
+---
 
 ---
 
@@ -123,6 +149,12 @@ Menampilkan dan mencetak laporan kebersihan:
 
 ---
 
+## 📅 Tahun Akademik
+
+**Universitas Pelita Bangsa**  
+Fakultas Teknik — Teknik Informatika  
+Tahun Akademik 2024/2025  
+
 ## <img src="img/google-drive.png" width=20> Link Laporan Proyek
 
 | **Keterangan**                | **Link**                                              |
@@ -130,66 +162,3 @@ Menampilkan dan mencetak laporan kebersihan:
 | **Poster**            |   https://drive.google.com/file/d/1LAr2ec6YrOxuGNU3YmMtm6AoMzlNkpYm/view?usp=sharing        |
 | **YouTube**         | https://youtu.be/jyC5mCBqG0o   |
 | **Drive Laporan**       |          |
-
-=======
-# CodeIgniter 4 Framework
-
-## What is CodeIgniter?
-
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
-
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
-
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-480f04d (Toisys)
