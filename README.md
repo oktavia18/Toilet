@@ -10,10 +10,17 @@
 
 | No | Nama                           | Tugas                                                                 |
 |----|--------------------------------|------------------------------------------------------------------------|
-| 1  | **Luthfi Fauzan**              | Backend development (CI4), deployment ke web hosting                  |
-| 2  | **Dhiyaulhaq Al Maududi**      | Perancangan database (ERD), relasi antar tabel                        |
-| 3  | **Raditya Tansy Lizara**       | Desain antarmuka (HTML + CSS), pembuatan mockup (Figma), dan penulisan laporan     |
-| 4  | **Oktavia Rizkha Kurniawati**  | Desain antarmuka (HTML + CSS), use case diagram, penyusunan laporan akhir      |
+| 1  | **Luthfi Fauzan**              | Pengembangan backend menggunakan 
+CodeIgniter 4 (v2022) dan publikasi ke web 
+hosting.                  |
+| 2  | **Dhiyaulhaq Al Maududi**      | Perancangan basis data (ERD) dan struktur 
+relasional database.                       |
+| 3  | **Raditya Tansy Lizara**       | Desain antarmuka (HTML & CSS), pembuatan 
+mockup aplikasi, serta penyusunan laporan 
+akhir proyek.      |
+| 4  | **Oktavia Rizkha Kurniawati**  | Desain antarmuka (HTML & CSS), pembuatan 
+Diagram Use Case, serta penyusunan laporan 
+akhir proyek.      |
 
 ---
 
