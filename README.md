@@ -6,6 +6,17 @@
 
 ---
 
+## 👥 Anggota Tim & Tanggung Jawab
+
+| No | Nama                           | Tugas                                                                 |
+|----|--------------------------------|------------------------------------------------------------------------|
+| 1  | **Luthfi Fauzan**              | Backend development (CI4), deployment ke web hosting                  |
+| 2  | **Dhiyaulhaq Al Maududi**      | Perancangan database (ERD), relasi antar tabel                        |
+| 3  | **Raditya Tansy Lizara**       | Desain antarmuka (HTML + CSS), pembuatan mockup (Figma), dan penulisan laporan     |
+| 4  | **Oktavia Rizkha Kurniawati**  | Desain antarmuka (HTML + CSS), use case diagram, penyusunan laporan akhir      |
+
+---
+
 ## 🎯 Tujuan Proyek
 
 - Mengganti sistem manual checklist menjadi sistem digital.
@@ -44,9 +55,11 @@
 
 ### 🎨 Mockup
 
-- Figma:  
-  [Mockup Aplikasi](https://www.figma.com/design/ZM4oCEA9QWZoSumzUwr9zn/Mockup-Checklist-Toilet)
+- Desain Tampilan :
+  ![Screenshot 2025-06-29 131858](https://github.com/user-attachments/assets/8b135106-0a39-45e6-8eda-d368c87f8dca)
 
+- Link Figma :
+  https://www.figma.com/design/ZM4oCEA9QWZoSumzUwr9zn/Mockup-Checklist-Toilet
 ---
 
 ## 🧱 Teknologi yang Digunakan
@@ -88,46 +101,6 @@ Tabel utama:
 | **Video Demo**         | [https://youtu.be/jyC5mCBqG0o](https://youtu.be/jyC5mCBqG0o)  |
 | **Drive Laporan**       |      https://drive.google.com/file/d/1HXH7MQkzaisTUVJyOtMvuCIPOARYARl-/view?usp=sharing    |
 
-
-## 👥 Anggota Tim & Tanggung Jawab
-
-| No | Nama                           | Tugas                                                                 |
-|----|--------------------------------|------------------------------------------------------------------------|
-| 1  | **Luthfi Fauzan**              | Backend development (CI4), deployment ke web hosting                  |
-| 2  | **Dhiyaulhaq Al Maududi**      | Perancangan database (ERD), relasi antar tabel                        |
-| 3  | **Raditya Tansy Lizara**       | Desain antarmuka, pembuatan mockup (Figma), dan penulisan laporan     |
-| 4  | **Oktavia Rizkha Kurniawati**  | Desain UI (HTML+CSS), use case diagram, penyusunan laporan akhir      |
-
----
-
-## 📷 Cuplikan Tampilan
-
-### 🧾 DataTables Checklist
-Menampilkan daftar checklist kebersihan lengkap dengan fitur search, sort, dan pagination.
-
-![DataTables Screenshot](Gambar/image-4.png)
-
-### 🧾 Laporan PDF
-Hasil cetak laporan checklist dalam bentuk file PDF.
-
-![Laporan PDF](Gambar/image-5.png)
-
----
-
-## 📅 Tahun Akademik
-
-**Universitas Pelita Bangsa**  
-Fakultas Teknik — Teknik Informatika  
-Tahun Akademik 2024/2025  
-
----
-
-## 📞 Kontak Tim (Opsional)
-
-> Hubungi kami melalui GitHub repo untuk kontribusi, pertanyaan, atau kolaborasi.
-
----
-
 ---
 
 ## 📷 Contoh Tampilan (Opsional)
@@ -154,11 +127,3 @@ Tahun Akademik 2024/2025
 **Universitas Pelita Bangsa**  
 Fakultas Teknik — Teknik Informatika  
 Tahun Akademik 2024/2025  
-
-## <img src="img/google-drive.png" width=20> Link Laporan Proyek
-
-| **Keterangan**                | **Link**                                              |
-|------------------------------|----------------------------------------------------|
-| **Poster**            |   https://drive.google.com/file/d/1LAr2ec6YrOxuGNU3YmMtm6AoMzlNkpYm/view?usp=sharing        |
-| **YouTube**         | https://youtu.be/jyC5mCBqG0o   |
-| **Drive Laporan**       |          |
