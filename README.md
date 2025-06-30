@@ -103,22 +103,60 @@ Tabel utama:
 
 ---
 
-## 📷 Contoh Tampilan (Opsional)
+## 📷 Contoh Tampilan Aplikasi
+Berikut ini adalah beberapa tampilan antarmuka dari aplikasi **Checklist Kebersihan Toilet** yang telah dibangun dan diuji:
 
 ### Halaman Login
+Tampilan login digunakan oleh petugas dan admin untuk mengakses aplikasi. Pengguna diminta untuk memasukkan **username dan password** sebelum masuk ke halaman utama sistem.
+
 ![WhatsApp Image 2025-06-06 at 19 36 24](https://github.com/user-attachments/assets/dbe0ba54-3047-473d-9f5c-5945d4e9f9f9)
 
+---
 ### Halaman Home
+Setelah berhasil login, pengguna akan diarahkan ke halaman **Home**. Halaman ini menampilkan menu navigasi utama seperti checklist, data toilet, dan laporan. Desainnya sederhana dan mudah dipahami.
+
 ![image](https://github.com/user-attachments/assets/11d97eb0-3501-45c2-a519-c71638d3d0fb)
 
+---
 ### Data Checklist
+Halaman **Data Checklist** menampilkan daftar checklist kebersihan yang telah diisi oleh petugas. Setiap entri mencakup **tanggal, lokasi toilet, nama petugas**, dan status checklist.
+
 ![WhatsApp Image 2025-06-06 at 19 36 02](https://github.com/user-attachments/assets/9768d8f5-c848-4ccc-8ffe-ff06cd600941)
 
+---
 ### Data Toilet
+Tampilan ini digunakan untuk **mengelola daftar toilet** berdasarkan lokasi. Admin dapat menambahkan toilet baru atau mengedit data yang sudah ada agar sistem tetap up-to-date dengan kondisi lapangan.
+
 ![image](https://github.com/user-attachments/assets/b4006391-b6f0-47d8-b96f-6ad313e6f641)
 
+---
+
 ### Data Inspektur
+Halaman ini digunakan untuk menampilkan dan mengelola data petugas atau **inspektur kebersihan**. Data yang ditampilkan mencakup nama, username, serta akses untuk menambah atau menghapus petugas.
+
 ![image](https://github.com/user-attachments/assets/aa76c7f1-9feb-4c32-bf79-fa1dde6b80d4)
+
+---
+
+## ✅ Kesimpulan
+
+Proyek aplikasi **Checklist Kebersihan Toilet** ini berhasil dibangun menggunakan framework **CodeIgniter 4**, didukung oleh **MySQL** sebagai database dan antarmuka berbasis **HTML/CSS + Bootstrap**. Fitur-fitur utama seperti input checklist harian, pengelolaan data toilet, login multiuser (admin dan petugas), serta laporan checklist dalam bentuk tabel dan PDF telah berhasil diterapkan dengan baik.
+
+Praktikum ini memberikan pemahaman langsung tentang:
+
+- Implementasi struktur database relasional
+- Penggunaan konsep **MVC** (Model-View-Controller)
+- Pengelolaan data dinamis dengan **Query Builder**
+- Penerapan **validasi form**, **relasi antar tabel**, dan fitur **DataTables**
+- Penerapan fitur **cetak laporan PDF** menggunakan DomPDF
+
+---
+
+## 🙌 Penutup
+
+Aplikasi ini membuktikan bahwa proses digitalisasi kegiatan operasional seperti checklist kebersihan toilet dapat dilakukan dengan efektif menggunakan teknologi web. Dengan desain antarmuka yang user-friendly dan sistem backend yang terstruktur, aplikasi ini tidak hanya memudahkan petugas dalam menginput data, tetapi juga membantu admin dalam pengawasan dan pelaporan.
+
+Semoga dokumentasi dan aplikasi ini dapat bermanfaat sebagai referensi maupun acuan dalam pengembangan proyek serupa ke depannya.
 
 ---
 
@@ -126,4 +164,4 @@ Tabel utama:
 
 **Universitas Pelita Bangsa**  
 Fakultas Teknik — Teknik Informatika  
-Tahun Akademik 2024/2025  
+Tahun Akademik 2024/2025
